@@ -1,0 +1,26 @@
+{
+    "params": {
+        "local_server": "True",
+        "local_url": "mysql://root:@localhost/news",
+        "prod_url": "mysql://username:password@localhost/blog",
+        "mainTitle": "DN",
+        "author": "Dev Bijwe",
+        "copyright": "dev",
+        "favTitle": "DevNews",
+        "tw_url": "https://twitter.com/DevendraBijwe",
+        "fb_url": "https://www.facebook.com/devendra.bijwe.3",
+        "gh_url": "https://github.com/Devbijwe",
+        "gmail_user": "22devendrabijwe@gmail.com",
+        "gmail_pswd": "lyjmgtiewkytgwyo",
+        "admin_username": "12345",
+        "admin_password": "12345",
+        "International": "world OR international OR united nation OR war",
+        "National": "india OR maharashtra OR -cricket",
+        "Sports": "sports OR cricket",
+        "Health": "health OR lifestyle OR corona",
+        "Business": "business OR economy OR finance",
+        "Entertainment": "entertainment OR bollywood",
+        "Technology": "DRDO OR ISRO OR technology OR science"
+
+    }
+}

@@ -1,0 +1,11 @@
+{% extends "layout.html" %} {% block main %}
+<label for="inputSort" class="form-label">Search By Country:</label>
+<input class="button sort" list="datalistOptions1" id="inputSort" placeholder="Search Country...">
+<datalist id="datalistOptions1"></datalist>
+<span><button type="button" id="btnSort" class="btn">     <img src="{{url_for('static',filename='assets/img/search.svg')}}" alt="" width="30" height="20"></button></span>
+<hr>
+<div class="grid-container hover contain" id="cardHolder"></div>
+
+
+{% endblock %}{% block subMain %}
+<div class="hide" id="pageCategory">{{params['International']}}</div> {% endblock %}
