@@ -1,8 +1,5 @@
 # flask-news-web
 
-
-# Steps --->
-
 * install python and pip
 * open cmd
 * run commands as follows --->
